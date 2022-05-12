@@ -1,6 +1,7 @@
 /* # COLOR PALETTE 
 rosa : #e4316f
-grey: c
+grey: 
+blue : #56b5d7
 */
 
 
@@ -36,6 +37,11 @@ p {
 
 img {
     height: 150px;
+
+}
+
+a {
+    color: #56b5d7;
 }
 
 /* Header */
@@ -52,11 +58,26 @@ h1 {
     border: 10px white solid;
     height: 170px;
     color: white;
-
 }
+
 
 .clearfix::after {
     content: '';
     display: table;
     clear: both;
+}
+
+img {
+    float: left;
+}
+
+
+
+.card {
+
+
+    background-color: rgb(139, 10, 10);
+    border: 0;
+
+    color: white;
 }
