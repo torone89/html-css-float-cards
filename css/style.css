@@ -25,7 +25,7 @@ body {
 .cointaner {
     max-width: 1200px;
     margin: 0 auto;
-    border: 1px solid black;
+
 }
 
 p {
@@ -36,13 +36,11 @@ p {
 }
 
 img {
-    height: 150px;
-
+    height: 120px;
+    float: left;
 }
 
-a {
-    color: #56b5d7;
-}
+
 
 /* Header */
 h1 {
@@ -51,12 +49,13 @@ h1 {
     padding: 2rem;
 }
 
+/* Main */
 .column {
     width: calc(100% / 3);
     float: left;
     background-color: black;
     border: 10px white solid;
-    height: 170px;
+    height: 140px;
     color: white;
 }
 
@@ -67,17 +66,28 @@ h1 {
     clear: both;
 }
 
-img {
-    float: left;
+/* classe card */
+
+h3 {
+    padding: 3px;
 }
 
+h6 {
+    padding: 3px;
+}
 
+a {
+    color: #56b5d7;
+    text-decoration: none;
+    font-size: small;
+}
 
 .card {
 
-
-    background-color: rgb(139, 10, 10);
+    width: calc(100% / 140px);
+    float: right;
     border: 0;
-
+    margin-right: 100px;
+    margin-top: 20px;
     color: white;
 }
