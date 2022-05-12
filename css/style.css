@@ -34,6 +34,10 @@ p {
     margin-bottom: 4rem;
 }
 
+img {
+    height: 150px;
+}
+
 /* Header */
 h1 {
     color: #e4316f;
@@ -44,6 +48,10 @@ h1 {
 .column {
     width: calc(100% / 3);
     float: left;
+    background-color: black;
+    border: 10px white solid;
+    height: 170px;
+    color: white;
 
 }
 
