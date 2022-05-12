@@ -1,5 +1,5 @@
 /* # COLOR PALETTE 
-...
+rosa : #e4316f
 */
 
 
@@ -9,6 +9,22 @@
     box-sizing: border-box;
     margin: 0;
     border: 0;
+}
+
+body {
+    color: black;
+    background-color: white;
+    font-family: 'Fredoka', sans-serif;
+}
+
+/* Utils */
+
+
+.cointaner {
+
+    max-width: 1200px;
+    margin: 0 auto;
+    border: 1px solid black;
 }
 
 /* Header */
