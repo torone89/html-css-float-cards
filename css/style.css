@@ -85,10 +85,10 @@ a {
 
 .card {
 
-    width: calc(100% / 140px);
+    width: calc(100% - 140px);
     float: right;
     border: 0;
-    margin-right: 100px;
+    margin-right: 2px;
     margin-top: 20px;
     color: white;
 }
