@@ -1,5 +1,6 @@
 /* # COLOR PALETTE 
 rosa : #e4316f
+grey: c
 */
 
 
@@ -26,9 +27,28 @@ body {
     border: 1px solid black;
 }
 
+p {
+    text-align: center;
+    font-size: large;
+    color: #4e5661;
+    margin-bottom: 4rem;
+}
+
 /* Header */
 h1 {
     color: #e4316f;
     text-align: center;
     padding: 2rem;
+}
+
+.column {
+    width: calc(100% / 3);
+    float: left;
+
+}
+
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
 }
